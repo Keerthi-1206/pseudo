@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #item1{
+            display: none;
+        }
+        #item2{
+            display: none;
+        }
+        #item3{
+            display: none;
+        }
+        #item4{
+            display: none;
+        }
+        #id1:hover ~ #item1{
+            display: inline-block;
+        }
+        #id2:hover ~ #item2{
+            display: inline-block;
+        }
+        #id3:hover ~ #item3{
+            display: inline-block;
+        }
+        #id4:hover ~ #item4{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="pet">
+        <button id="id1">Cat</button>
+        <button id="id2">Dog</button>
+        <button id="id3">Elephant</button>
+        <button id="id4">Giraffe</button><br>
+        <img id="item1" src="./cat.jpg" width="200px" height="200px">
+        <img id="item2" src="./dog.jpg" width="200px" height="200px">
+        <img id="item3" src="./Elephant.jpg" width="200px" height="200px">
+        <img id="item4" src="./giraffe.jpg" width="200px" height="200px">
+    </div>
+</body>
+</html>
